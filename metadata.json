@@ -1,0 +1,9 @@
+{
+  "name": "Safety Scout",
+  "description": "A multi-modal AI assistant for real-time location safety analysis, risk assessment, and personalized emergency advice using Google Gemini.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
