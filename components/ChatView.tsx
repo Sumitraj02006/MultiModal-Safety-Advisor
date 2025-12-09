@@ -91,7 +91,7 @@ const ChatView: React.FC = () => {
           </div>
         </div>
         <div className="text-xs text-amber-600 bg-amber-50 px-2 py-1 rounded border border-amber-200 font-medium">
-          Not a replacement for 911
+          Not a replacement for 112
         </div>
       </div>
 
@@ -139,7 +139,7 @@ const ChatView: React.FC = () => {
             onChange={(e) => setInput(e.target.value)}
             onKeyDown={handleKeyDown}
             placeholder="Type your emergency or safety question..."
-            className="flex-1 resize-none border border-slate-300 rounded-xl p-3 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none pr-12 h-14"
+            className="flex-1 resize-none border border-slate-300 rounded-xl p-3 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none pr-12 h-14 bg-white text-black placeholder:text-slate-400"
           />
           <button
             onClick={handleSend}

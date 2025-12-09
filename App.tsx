@@ -68,7 +68,7 @@ const App: React.FC = () => {
       {/* Footer */}
       <footer className="bg-white border-t border-slate-200 py-6">
         <div className="max-w-6xl mx-auto px-4 text-center text-slate-500 text-sm">
-          <p>© 2024 Safety Scout. Powered by Google Gemini.</p>
+          <p>© 2024 Safety Scout</p>
           <p className="mt-1 text-xs text-slate-400">
             Disclaimer: This tool is for informational purposes only. In a life-threatening emergency, always contact local authorities immediately.
           </p>

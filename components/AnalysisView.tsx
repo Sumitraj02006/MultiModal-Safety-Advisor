@@ -87,7 +87,7 @@ const AnalysisView: React.FC = () => {
               Describe location or ask a question
             </label>
             <textarea
-              className="w-full p-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all"
+              className="w-full p-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all bg-white text-black placeholder:text-slate-400"
               rows={3}
               placeholder="e.g., Is Central Park safe to walk in right now? What are the crime rates here?"
               value={inputText}
